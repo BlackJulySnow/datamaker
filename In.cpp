@@ -8,15 +8,14 @@ void makeIn() {
     double xx, yy, zz, rr;
     pair<int, int>ab, uv;
     srand((ULL)new char);
-    T = getRandom(5000, 10000);
+    T = getRandom(100, 1000);
     //T=100;
-    //printf("%d\n",T);
+    printf("%d\n",T);
     for (int ccc = 0; ccc < T; ccc++) {
-        h = getRandom(1, 100000);
-        a = getRandom(1, 1000);
-        b = getRandom(1, a);
-        t = getRandom(1, 1000);
-        printf("%d %d %d %d\n", h, a, b, t);
+        printf("%d ",getRandom(1, 1000));
+    }
+    for (int ccc = 0; ccc < T; ccc++) {
+        printf("%d ",getRandom(1, 1000));
     }
 
     //printf("0\n");
